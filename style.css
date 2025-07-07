@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: blue;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 28px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.movie {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.movie img {
+  width: 200px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.movie img:hover {
+  transform: scale(1.05);
+}
